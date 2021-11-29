@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+ <html>
+ 
+ <head>
+    <title>Assignment on Form | HTML</title>
+
+    <meta name="title" content="Working on Form| HTML">
+    <meta name="decription" content="Assignment on form | HTML">
+    <meta name="Keywords" content="what is an HTML">
+    <meta name="viewport" content="Width=device-width,initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="author" content="Godswill">
+    <link rel="stylesheet" type="text/css" href="css/form.css">
+
+    <link rel="icon" href="DSC_0636.JPG">
+</head>
+
+<body>
+   <!-- using form method -->
+   
+<form action="dashboard.html" method="get" name="loginform">
+   <fieldset> 
+      <legend>LOGIN</legend>
+      <label>USERNAME:</label><br>
+      <input type="email" name="username" required="" maxlength="50"><br>
+
+      <label>PASSWORD</label><br>
+      <input type="password" name="password" required="" minlength="8"  pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])[a-zA-z\d]{8,}$"><span><tt>at least 1 uppercase character, 1 lowercase character, 1 digit</tt></span><br>
+
+      <input type="submit" name="submit" value="LOGIN"
+      class="default btnhover">
+   </fieldset> 
+   
+</form>
+    
+
+
+</body>
+</html>
