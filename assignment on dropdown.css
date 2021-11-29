@@ -1,0 +1,104 @@
+*{box-sizing: border-box;}
+body{font-family:; font-size:px;}
+
+#div1{
+    background-color: darkred;
+    height: 50px;
+}
+
+.UNIQUEENTERPRISE{
+    position: absolute;
+    left: 10%;
+}
+
+.searchicon{
+    position: absolute;
+    left: 200%;
+    bottom: 30%;
+}
+
+.cartlogo{
+    position: absolute;
+    left: 700%;
+    bottom: 15%;
+}
+
+nav{
+    background-color: navajowhite;
+    height: 30px;
+}
+
+nav> a{
+    padding: 15px 30px;
+    font-size: 20px;
+    text-decoration: none;
+    color: royalblue;
+    font-family: tahoma;
+}
+
+.Services{
+  position: relative;
+  display: inline-block;
+  font-size: 20px;
+  text-decoration: none;
+  color: royalblue;
+  font-family: tahoma;
+}
+
+.subServices{
+  display: none;
+  position: absolute;
+  background-color: lightskyblue;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.Services:hover .subServices{
+  display: block;
+}
+
+.Howtocontactus{
+  position: relative;
+  display: inline-block;
+  font-size: 20px;
+  text-decoration: none;
+  color: royalblue;
+  font-family: tahoma;
+}
+
+.subHowtocontactus{
+  display: none;
+  position: absolute;
+  background-color: lightskyblue;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.Howtocontactus:hover .subHowtocontactus{
+  display: block;
+}
+
+.cart{
+    position: absolute;
+    top: 33%;
+}
+
+#div3{
+    background-color: darkorange;
+    height: 600px;
+}
+
+#div4{
+    background-color: darkorchid;
+    height: 40px;
+}
+
+.copyright{
+    position: absolute;
+    top: 125%;
+    right: 40%;
+}
