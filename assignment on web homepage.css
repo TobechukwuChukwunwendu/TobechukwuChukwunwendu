@@ -1,0 +1,266 @@
+*{box-sizing: border-box;}
+body{font-family:; font-size:px;}
+{
+	background-color: steelblue;
+	height: 110px;
+}
+
+#sec1{
+	background-color: lightblue;
+	height: 50px;
+}
+
+.UNIQUEENTERPRISE{
+	position: absolute;
+	left: 10%;
+	font-family: tahoma;
+	font-size: 20px;
+	padding-left: 15px;
+	font-weight: bold;
+}
+
+.search{
+	position: absolute;
+	left: 200%;
+	bottom: 30%;
+}
+
+.logo{
+	position: absolute;
+	left: 450%;
+	bottom: 30%;
+}
+
+nav{
+	background-color: navajowhite;
+	height: 30px;
+
+}
+
+nav> a{
+	padding: 15px 30px;
+	font-size: 20px;
+	text-decoration: none;
+	color: royalblue;
+	font-family: tahoma;
+}
+
+#div{
+	background-color: deepskyblue;
+	height: 300px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.ltd{
+	position: absolute;
+	right: 34%;
+	top: 40%;
+	padding-left: 30px;
+	font-size: 30px;
+	font-family: tahoma;
+	font-weight: bold;
+}
+
+.oil{
+	position: absolute;
+	right: 31.6%;
+	top: 54%;
+	font-weight: bold;
+}
+
+.dot{
+	position: absolute;
+	right: 48.7%;
+	top: 68%;
+}
+
+#unique{
+	position: absolute;
+	right: 55%;
+	top: 38%;
+}
+
+#sec3{
+	background-color: floralwhite;
+	height: 150px;
+}
+
+#houselogo{
+	position: absolute;
+	right: 80%;
+}
+
+.plans{
+	position: absolute;
+	right: 68%;
+	top: 84%;
+	font-family: tahoma;
+	color: darkblue;
+}
+
+#perfumelogo{
+	position: absolute;
+	right: 50%;
+}
+
+.perfume{
+	position: absolute;
+	right: 39%;
+	top: 84%;
+	font-family: tahoma;
+	color: darkblue;
+}
+
+#watchlogo{
+	position: absolute;
+	right: 18%;
+}
+.smart{
+	position: absolute;
+	right: 7%;
+	top: 84%;
+	font-family: tahoma;
+	color: darkblue;
+}
+
+#sec4{
+	background-color: deepskyblue;
+	height: 30px;
+}
+
+.featured{
+	position: absolute;
+	right: 80%;
+	top: 100%;
+	padding-left: 20px;
+	font-size: 19px;
+}
+
+#sec5{
+	background-color: navajowhite;
+	height: 152px;
+}
+
+#house2logo{
+	position: absolute;
+	right: 75%;
+}
+
+.plans2{
+	position: absolute;
+	right: 79%;
+	top: 129%;
+	font-family: tahoma;
+	border-bottom: 3px solid blue;
+}
+
+#perfume2logo{
+	position: absolute;
+	right: 45%;
+}
+
+.perfume2{
+	position: absolute;
+	right: 47%;
+	top: 129%;
+	font-family: tahoma;
+	border-bottom: 3px solid blue;
+}
+
+#watch3logo{
+	position: absolute;
+	right: 20%;
+}
+.smart3{
+	position: absolute;
+	right: 21%;
+	top: 129%;
+	font-family: tahoma;
+	border-bottom: 3px solid blue;
+}
+
+#sec6{
+	background-color: navajowhite;
+	height: 152px;
+}
+
+#watch2logo{
+	position: absolute;
+	right: 75%;
+}
+
+.watch2{
+	position: absolute;
+	right: 77%;
+	top: 166%;
+	font-family: tahoma;
+	border-bottom: 3px solid blue;
+
+}
+
+#perfume3logo{
+	position: absolute;
+	right: 45%;
+}
+
+.perfume3{
+	position: absolute;
+	right: 47%;
+	top: 166%;
+	font-family: tahoma;
+	border-bottom: 3px solid blue;
+}
+
+#watch1logo{
+	position: absolute;
+	right: 18%;
+}
+.smart1{
+	position: absolute;
+	right: 20%;
+	top: 166%;
+	font-family: tahoma;
+	border-bottom: 3px solid blue;
+}
+
+#sec7{
+	background-color: deepskyblue;
+	height: 230px;
+}
+
+.watchlist{
+	position: absolute;
+	right: 70%;
+	top: 179%;
+	font-family: tahoma;
+	color: white;
+}
+
+.perfumelist{
+	position: absolute;
+	right: 40%;
+	top: 179%;
+	font-family: tahoma;
+	color: white;
+}
+
+.planlist{
+	position: absolute;
+	right: 10%;
+	top: 179%;
+	font-family: tahoma;
+	color: white;
+	
+}
+
+#sec8{
+	background-color: lightblue;
+	height: 30px;
+}
+
+.copyright{
+	position: absolute;
+	right: 40%;
+	top: 216%;
+}
