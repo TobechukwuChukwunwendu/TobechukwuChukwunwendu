@@ -1,0 +1,131 @@
+/*
+* @title style.css for random_number_generator
+* @description This software provides the styling for the random number generator
+* Copyright (c) 2022 Tobechukwu Chukwunwendu
+* Permission is hereby granted, free of charge, to any person obtaining a copy
+* of this software and associated documentation files (the "Software"), to deal
+* in the Software without restriction, including without limitation the rights
+* to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+* copies of the Software, and to permit persons to whom the Software is
+* furnished to do so, subject to the following conditions:
+* The above copyright notice and this permission notice shall be included in all
+* copies or substantial portions of the Software.
+*
+* @contact https://github.com/Tobechukwu Chukwunwendu
+*/
+
+*{box-sizing: border-box; font-family:abeeze,tahoma;}
+
+@font-face{
+	font-family:abeeze;
+	src: url('../font/abeeze/ABeeZee-Regular.ttf');
+}
+
+@font-face{
+	font-family:abeezeItalic;
+	src: url('../font/abeeze/ABeeZee-Italic.ttf');
+	font-style: italics;
+}
+
+@font-face{
+	font-family:homoarakhn;
+	src: url('../font/homoarakhn/HOMOARAK.TTF');
+}
+
+body{
+	background-image:url('../image/animiation.jpg');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size:100%;
+}
+
+.display{
+	width:35%;
+	height:50px;
+	font-size: 27px;
+	text-align: center;
+	font-family:homoarakhn,abeeze;
+}
+
+.timer{
+	float:right;
+	width:10%;
+	height:30px;
+	font-size: 20px;
+	text-align: center;
+
+}
+
+#main{
+	width: 100%;
+	height: auto;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform:translate(-50%,-50%);
+}
+
+#main > div{
+	width:15%;
+	height:240px;
+	/*border: 1px solid black;*/
+	float: left;
+	margin-left:4%;
+	border-radius: 50%;
+	font-size: 34px;
+	font-weight: 900;
+	text-align: center;
+	padding-top:5%;
+
+}
+
+.first{
+	background:tomato;
+	color: #fff;
+}
+
+.second{
+	background-color:deeppink;
+	color: #fff;
+}
+
+.third{
+	background-color:darkblue;
+	color: #fff;
+}
+.fourth{
+	background-color:darkcyan;
+	color: #fff;
+}
+.fifth{
+	background-color:black;
+	color: #fff;
+}
+button{
+	clear: both;
+	position: absolute;
+	top:75%;
+	left: 50%;
+	transform: translateX(-50%);
+	cursor: pointer;
+}
+
+
+footer{
+	width: 100%;
+	position:absolute;
+	bottom: 0;
+	text-align: center;
+	color:darkred;
+}
+
+footer > marquee{
+	font-size: 30px;
+	font-weight: bolder;
+}
+
+footer > p{
+	font-size: 20px;
+	text-align: center;
+	font-weight: bold;
+}

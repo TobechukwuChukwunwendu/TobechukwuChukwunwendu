@@ -1,0 +1,127 @@
+/*
+* @title style.css for random_number_generator
+* @description This software provides the styling for the random number generator
+* Copyright (c) 2022 Eugy Enoch
+* Permission is hereby granted, free of charge, to any person obtaining a copy
+* of this software and associated documentation files (the "Software"), to deal
+* in the Software without restriction, including without limitation the rights
+* to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+* copies of the Software, and to permit persons to whom the Software is
+* furnished to do so, subject to the following conditions:
+* The above copyright notice and this permission notice shall be included in all
+* copies or substantial portions of the Software.
+*
+* @contact https://github.com/eugyenoch
+*/
+
+@media only screen and (max-width:499px){
+
+	.display{
+	width:99%;
+	height: 30px;
+	margin-bottom:9%;
+	font-size: 12px;
+	text-align: left;
+	font-family: homoarakhn;
+	float: none;
+}
+
+.timer{display: none;}
+
+	#main{
+	width: 99%;
+	height: auto;
+	position: absolute;
+	margin:auto;
+	padding: auto;
+}
+
+#main > div{
+	width:70%;
+	height:190px;
+	padding-top:20%;
+}
+
+button{
+	position:absolute;
+	top:90%;
+	left: 50%;
+	transform: translateX(-50%);
+	cursor: pointer;
+	margin-top:9%;
+}
+
+footer{
+	width: 99%;
+	position:relative;
+	bottom: 0;
+	text-align: center;
+}
+
+footer > marquee{
+	font-size: 20px;
+	font-weight: bolder;
+}
+
+footer > p{
+	font-size: 18px;
+	text-align: center;
+	font-weight: bold;
+}
+}
+
+
+@media only screen and (max-width:999px){
+	.display{
+	width:99%;
+	height: 30px;
+	margin-bottom:9%;
+	font-size: 12px;
+	text-align: center;
+	font-family: homoarakhn;
+	float: none;
+}
+
+.timer{display: none;}
+
+	#main{
+	width: 100%;
+	height: auto;
+	position: relative;
+	margin:auto;
+	padding: auto;
+}
+
+#main > div{
+	width:70%;
+	height:240px;
+	padding-top:20%;
+}
+
+button{
+	position: relative;
+	top:90%;
+	left: 50%;
+	transform: translateX(-70%);
+	cursor: pointer;
+	margin:9%;
+}
+
+footer{
+	width: 100%;
+	position:relative;
+	bottom: 0;
+	text-align: center;
+}
+
+footer > marquee{
+	font-size: 20px;
+	font-weight: bolder;
+}
+
+footer > p{
+	font-size: 18px;
+	text-align: center;
+	font-weight: bold;
+}
+}
